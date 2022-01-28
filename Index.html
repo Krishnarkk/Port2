@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="">
+    <title>Kaanha Portfolio</title>
+</head>
+<body onload="speak()">
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav_logo" id="logo">Krishna</a>
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bxs-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book' ></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#work" class="nav_link">
+                            <i class='bx bx-briefcase-alt-2' ></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bx-message-square-detail' ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- theme change btn -->
+
+                    <i  onClick='changeColor()' class='bx bx-moon change-theme' id="theme-button" ></i>
+
+    </header>
+     <!-- main -->
+     <main class="main">
+        <div class="anim">
+       
+        </div>
+       <!-- home -->
+       <section class="home section" id="home">
+          <div class="home_container container grid">
+              <div class="home_data">
+                  <span class="home_greet" id="text">Hello,I'm</span>
+                  <h1 class="h_name" id="text2">Krishna</h1>
+                  <h3 class="education" id="text3">Frontend Developer</h3>
+                  <div class="home_buttons">
+                    <a download href="KrishnaCv.pdf" class="button button_home">Download CV</a>
+                      <a href="#about" class="button">About Me</a>
+                  </div>
+              </div>
+              <div class="home_handle">
+                  <img src="Cv/Krish.jpeg" alt="my pic" class="home_img">
+              </div>
+              <div class="home_social">
+                  <a href="" class="home_social-link">
+                      <i class="bx bxl-linkedin-square"></i>
+                  </a>
+                  <a href="" class="home_social-link">
+                    <i class="bx bxl-github"></i>
+
+                  </a>
+                  <a href="" class="home_social-link">
+                    <i class="bx bxl-instagram"></i>
+
+                  </a>
+              </div>
+              <a href="#about" class="home_scroll">
+                <i class="bx bx-mouse home_scroll-icon"></i>
+                <span class="home scroll-name"> Scroll Down</span>
+
+              </a>
+          </div>
+    
+       </section>
+       <div class="anim2">
+       
+    </div>
+       <!-- about -->
+       <section class="about section" id="about">
+        <span class="section_subtitle">My Self</span>
+        <h2 class="section_title">About Me</h2>
+        <div class="about_container container grid">
+            <img src="Cv/About.jpeg" alt="" class="about_img">
+            <div class="about_data">
+                <div class="about_info">
+                    <div class="about_box">
+                        <i class="bx bx-award"></i>
+                        <h3 class="about_title">Experience</h3>
+                        <span class="about_subtitle">2 years</span>
+                    </div>
+                    <div class="about_box">
+                        <i class="bx bx-briefcase-alt about_icon"></i>
+                        <h3 class="about_title">Completed</h3>
+                        <span class="about_subtitle">10+ Projects</span>
+                    </div>
+                    <!-- <div class="about_box">
+                        <h3 class="about_title"></h3>
+                        <span class="about_subtitle"></span>
+                    </div> -->
+                </div>
+                <p class="about_description">
+                    Frontend Developer,I create Responsive websites using a powerful
+                    Js framework called ReactJs,I am fond of learning and developing 
+                    websites using FED concepts
+                </p>
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill -->
+    <section class="skills section" id="skills">
+        <div class="anim3">
+       
+        </div>
+        <div class="anim4">
+       
+        </div>
+         <span class="section_subtitle">
+             My abilities
+         </span>
+         <h2 class="section_title">My Experience</h2>
+         <div class="skills_conatiner container grid">
+             <div class="skills_content">
+                 <h3 class="skills_title">Frontend Developer</h3>
+                 <div class="skills_box">
+                     <div class="skills_group">
+                         <div class="skills_data">
+                             <i class="bx bxs-badge-check"></i>
+                             <div>
+                         <h3 class="skills_name">HTML</h3>
+                           <span class="skills_level">Basic</span>
+                             </div>
+                         </div>
+                         <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                        <h3 class="skills_name">CSS</h3>
+                          <span class="skills_level">Advanced</span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                        <h3 class="skills_name">JavaScript</h3>
+                          <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skills_group">
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                        <h3 class="skills_name">ReactJs</h3>
+                          <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                        <h3 class="skills_name">Bootstrap</h3>
+                          <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+                    
+                 </div>
+             </div>
+         </div>
+    </section>
+
+    <!-- services -->
+    <section class="skills section" id="services">
+     
+    </section>
+
+
+
+    
+    <h3 class="section_title" id="contact" style='position: relative;bottom: 5rem;' >Contact ME</h3>
+    <form onsubmit="send()" class="skills_content" style='position: relative;bottom: 5rem;'>
+        <!-- Name -->
+        <div class="name">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" required>
+        </div>
+        <!-- Company -->
+       
+        <!-- Email -->
+        <div class="name">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" required>
+        </div>
+        <!-- Telephone -->
+        <div class="name">
+            <label for="telephone">Phone Number</label>
+            <br>
+            <input type="tel" id="telephone" required>
+        </div>
+        <!-- Message -->
+        <div class="name">
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" ></textarea>
+        </div>
+        <!-- Submit -->
+        <div class="name">
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+     </main>
+      <!-- footer -->
+      <footer class="footer">
+
+      </footer>
+
+      <script src="Js/index.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
